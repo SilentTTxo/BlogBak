@@ -1,0 +1,37 @@
+*.tm {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+*.xh {
+	border-style: solid;
+	border-width: 1px;
+	border-color:rgb(173, 171, 171);
+	background-color: rgba(2, 0, 0, 0.19);
+	min-height: 550px;
+}
+*.nk {
+	border-style: solid;
+	border-width: 1px;
+	border-color:rgb(173, 171, 171);
+}
+a:hover{
+ text-decoration:none;  /*鼠标放上去有下划线*/
+}
+*.active{
+	font-size:40px;
+}
+*.DX {
+	color:rgb(250,179,61)
+}
+body {
+	background-color: rgb(23,44,60);
+	color:rgb(250,179,61);
+}
+*.list {
+	background-color: rgb(39,72,98);
+	color:rgb(250,179,61);
+}
+pre {
+	color: rgb(217,104,49);
+	background-color: rgb(39,72,98);
+}

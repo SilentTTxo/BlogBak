@@ -1,0 +1,4 @@
+name: silenttt
+version: 2
+handle:
+- passwdaccess:  if(path ~ "write") passwd "TT:a132132"

@@ -1,0 +1,22 @@
+<div class="well">
+<div class="table-responsive">
+<table class="table  table-striped"  ng-controller="Del">
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Time</th>
+      <th>Del</th>
+    </tr>
+      <tr ng-repeat="del in Dels">
+        <td>{{$index+1}}</td>
+        <td>{{del.names}}</td>
+        <td>{{del.type}}</td>
+        <td>{{del.time}}</td>
+        <td>
+        	<button type="button" class="btn btn-danger" ng-click="Delect(del.names)">Del</button>
+        </td>
+      </tr>
+    </table>
+    </div>
+    </div>
